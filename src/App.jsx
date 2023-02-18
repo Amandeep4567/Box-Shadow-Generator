@@ -44,8 +44,9 @@ function App() {
           value={Blur}
           onChange={(e) => setBlur(e.target.value)}
         />
-        <label>Color</label>
+        <label>Color </label>
         <input
+          className="color_section"
           type="color"
           value={color}
           onChange={(e) => setColor(e.target.value)}
